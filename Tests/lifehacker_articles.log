@@ -1,0 +1,174 @@
+DEBUG:root:Начало скрипта
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\lida1\Desktop\Diploma Tests\Tests\chromedriver-win64\chromedriver-win64\chromedriver.exe` in a child process with pid: 3028
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:58742/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:58742
+DEBUG:urllib3.connectionpool:http://localhost:58742 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"118.0.5993.89","chrome":{"chromedriverVersion":"118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216})","userDataDir":"C:\\Users\\lida1\\AppData\\Local\\Temp\\scoped_dir3028_700796333"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:58745"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"2d8de7cb3126c690bcc63c68cda36bcd"}} | headers=HTTPHeaderDict({'Content-Length': '880', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Driver initialized
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/url {"url": "https://lifehacker.ru/"}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "POST /session/2d8de7cb3126c690bcc63c68cda36bcd/url HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Открыт URL: https://lifehacker.ru/
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/elements {"using": "css selector", "value": "div[data-jest='title']"}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "POST /session/2d8de7cb3126c690bcc63c68cda36bcd/elements HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_48"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_49"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_50"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_51"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_52"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_53"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_54"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_55"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_56"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_57"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_58"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_59"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_60"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_61"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_62"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_63"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_64"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_65"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_66"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_67"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_68"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_69"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_70"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_71"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_72"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_73"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_74"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_75"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_76"},{"element-6066-11e4-a52e-4f735466cecf":"BE927EDF5E71D32610FC7BD125C28B5B_element_77"}]} | headers=HTTPHeaderDict({'Content-Length': '2591', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Найдено 30 статей
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_48/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_48/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"5 неординарных способов стать лучше уже сегодня"} | headers=HTTPHeaderDict({'Content-Length': '99', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #1. Заголовок: 5 неординарных способов стать лучше уже сегодня
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_49/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_49/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"Xiaomi представила свои первые смарт-часы с ЭКГ"} | headers=HTTPHeaderDict({'Content-Length': '93', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #2. Заголовок: Xiaomi представила свои первые смарт-часы с ЭКГ
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_50/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_50/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"Надо брать: утеплённые мужские кроссовки Ralf Ringer со скидкой 30%"} | headers=HTTPHeaderDict({'Content-Length': '123', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #3. Заголовок: Надо брать: утеплённые мужские кроссовки Ralf Ringer со скидкой 30%
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_51/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_51/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"Стартовала распродажа игр «Страхи в Steam: Возмездие». Выбрали 20 крутых предложений"} | headers=HTTPHeaderDict({'Content-Length': '161', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #4. Заголовок: Стартовала распродажа игр «Страхи в Steam: Возмездие». Выбрали 20 крутых предложений
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_52/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_52/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"8 крутых дистрибутивов Linux, о которых мало кто слышал"} | headers=HTTPHeaderDict({'Content-Length': '107', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #5. Заголовок: 8 крутых дистрибутивов Linux, о которых мало кто слышал
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_53/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_53/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"Как преодолеть языковой барьер и начать свободно говорить на английском"} | headers=HTTPHeaderDict({'Content-Length': '145', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #6. Заголовок: Как преодолеть языковой барьер и начать свободно говорить на английском
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_54/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_54/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"10 способов приготовить тот самый морковный торт дома"} | headers=HTTPHeaderDict({'Content-Length': '109', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #7. Заголовок: 10 способов приготовить тот самый морковный торт дома
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_55/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_55/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"Как с помощью всего двух списков сосредоточиться на самом главном"} | headers=HTTPHeaderDict({'Content-Length': '133', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #8. Заголовок: Как с помощью всего двух списков сосредоточиться на самом главном
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_56/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_56/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"6 мифов о генах, которые учёные давно опровергли"} | headers=HTTPHeaderDict({'Content-Length': '99', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #9. Заголовок: 6 мифов о генах, которые учёные давно опровергли
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_57/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_57/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"Подкаст Лайфхакера: вредно ли спать рядом со смартфоном"} | headers=HTTPHeaderDict({'Content-Length': '114', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #10. Заголовок: Подкаст Лайфхакера: вредно ли спать рядом со смартфоном
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_58/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_58/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"Чего на самом деле хотят мужчины"} | headers=HTTPHeaderDict({'Content-Length': '71', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #11. Заголовок: Чего на самом деле хотят мужчины
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_59/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_59/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"Навигатор в стиле GTA: Vice City штурмует App Store"} | headers=HTTPHeaderDict({'Content-Length': '86', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #12. Заголовок: Навигатор в стиле GTA: Vice City штурмует App Store
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_60/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_60/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"6 признаков развода на диагноз: рассказывает врач и медицинский журналист Алексей Водовозов"} | headers=HTTPHeaderDict({'Content-Length': '181', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #13. Заголовок: 6 признаков развода на диагноз: рассказывает врач и медицинский журналист Алексей Водовозов
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_61/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_61/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"Под поверхностью Марса обнаружили радиоактивное море магмы. Оно окружает ядро"} | headers=HTTPHeaderDict({'Content-Length': '156', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #14. Заголовок: Под поверхностью Марса обнаружили радиоактивное море магмы. Оно окружает ядро
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_62/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_62/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"10 фильмов, в которых актёры сыграли сразу нескольких персонажей, но это не все заметили"} | headers=HTTPHeaderDict({'Content-Length': '171', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #15. Заголовок: 10 фильмов, в которых актёры сыграли сразу нескольких персонажей, но это не все заметили
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_63/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_63/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"Лучшие предложения недели: скидки от Incanto, Zarina, «Технопарка» и других магазинов"} | headers=HTTPHeaderDict({'Content-Length': '156', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #16. Заголовок: Лучшие предложения недели: скидки от Incanto, Zarina, «Технопарка» и других магазинов
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_64/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_64/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"Xiaomi официально представила операционную систему HyperOS — замену MIUI"} | headers=HTTPHeaderDict({'Content-Length': '132', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #17. Заголовок: Xiaomi официально представила операционную систему HyperOS — замену MIUI
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_65/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_65/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"ВТБ запустил денежные переводы в 7 стран с выдачей наличных"} | headers=HTTPHeaderDict({'Content-Length': '120', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #18. Заголовок: ВТБ запустил денежные переводы в 7 стран с выдачей наличных
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_66/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_66/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"Сочный стейк и нежная запеканка: проверяем, на что способен электрогриль Tefal OptiGrill 4 в 1"} | headers=HTTPHeaderDict({'Content-Length': '168', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #19. Заголовок: Сочный стейк и нежная запеканка: проверяем, на что способен электрогриль Tefal OptiGrill 4 в 1
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_67/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_67/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"Xiaomi выпустила часы Watch S3 со сменным безелем, eSIM и измерением давления"} | headers=HTTPHeaderDict({'Content-Length': '137', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #20. Заголовок: Xiaomi выпустила часы Watch S3 со сменным безелем, eSIM и измерением давления
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_68/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_68/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"Представлены Xiaomi 14 и Xiaomi 14 Pro: первые со Snapdragon 8 Gen 3. Без титана не обошлось"} | headers=HTTPHeaderDict({'Content-Length': '144', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #21. Заголовок: Представлены Xiaomi 14 и Xiaomi 14 Pro: первые со Snapdragon 8 Gen 3. Без титана не обошлось
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_69/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_69/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"20 странных, нелепых и жутких идей с прекрасным воплощением"} | headers=HTTPHeaderDict({'Content-Length': '119', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #22. Заголовок: 20 странных, нелепых и жутких идей с прекрасным воплощением
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_70/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_70/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"Amazfit представила круглые часы Active Edge с GPS и автономностью 16 дней"} | headers=HTTPHeaderDict({'Content-Length': '127', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #23. Заголовок: Amazfit представила круглые часы Active Edge с GPS и автономностью 16 дней
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_71/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_71/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"Что такое «день сурка» в отношениях и как из него выбраться"} | headers=HTTPHeaderDict({'Content-Length': '120', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #24. Заголовок: Что такое «день сурка» в отношениях и как из него выбраться
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_72/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_72/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"В Shazam на iPhone теперь можно искать не только треки, но и концерты"} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #25. Заголовок: В Shazam на iPhone теперь можно искать не только треки, но и концерты
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_73/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_73/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"Подкаст Лайфхакера: как живут дети, рождённые с ВИЧ-инфекцией"} | headers=HTTPHeaderDict({'Content-Length': '124', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #26. Заголовок: Подкаст Лайфхакера: как живут дети, рождённые с ВИЧ-инфекцией
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_74/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_74/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"Apple выпустила iOS 17.1 с новыми функциями и watchOS 10.1 с двойным тапом"} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #27. Заголовок: Apple выпустила iOS 17.1 с новыми функциями и watchOS 10.1 с двойным тапом
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_75/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_75/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"18 вещей в клетку на осень и зиму"} | headers=HTTPHeaderDict({'Content-Length': '69', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #28. Заголовок: 18 вещей в клетку на осень и зиму
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_76/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_76/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"Как пользоваться увлажнителем воздуха"} | headers=HTTPHeaderDict({'Content-Length': '83', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #29. Заголовок: Как пользоваться увлажнителем воздуха
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_77/text {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "GET /session/2d8de7cb3126c690bcc63c68cda36bcd/element/BE927EDF5E71D32610FC7BD125C28B5B_element_77/text HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":"«Победа» начала продавать рюкзаки для ручной клади. Их не будут проверять в калибраторе"} | headers=HTTPHeaderDict({'Content-Length': '173', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Статья #30. Заголовок: «Победа» начала продавать рюкзаки для ручной клади. Их не будут проверять в калибраторе
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://localhost:58742/session/2d8de7cb3126c690bcc63c68cda36bcd {}
+DEBUG:urllib3.connectionpool:http://localhost:58742 "DELETE /session/2d8de7cb3126c690bcc63c68cda36bcd HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Драйвер закрыт
+DEBUG:root:Конец скрипта
